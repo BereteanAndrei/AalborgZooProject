@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*test commit */
-
 @font-face {
     font-family: 'chunkfive_exregular';
     src: url('font/chunkfive_ex-webfont.woff2') format('woff2'),
@@ -38,6 +36,22 @@ img {
 	grid-area: zebra;
 } 
 
+.intro {
+	grid-area: intro;
+}
+
+.program {
+	grid-area: program;
+}
+
+.girafe {
+	grid-area: girafe;
+}
+
+.video {
+	grid-area: video;
+}
+
 .container {
 	display: grid;
 	grid-gap: 10vw;
@@ -45,8 +59,10 @@ img {
 		'entrance'
 		'zebra'
 		'intro'
+		'christmas'
 		'program'
-		'girafe';
+		'girafe'
+		'video';
 }
 
 .box {
@@ -242,7 +258,7 @@ nav li a {
 .program-text {
 	background: #f3f3f3;
 	overflow: auto;
-	padding: 30px;
+	padding: 20px;
 }
 
 .time {
@@ -251,6 +267,16 @@ nav li a {
 
 .event {
 	width: 53vw;
+}
+
+.girafe {
+	height: 70vh;
+}
+
+/* BlACK MAMBA SECTION */
+
+.video {
+	
 }
 
 
