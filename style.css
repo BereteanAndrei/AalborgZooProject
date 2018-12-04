@@ -106,7 +106,7 @@ img {
 	display: block;
 }
 
-.christmas h1, .program h1, .mambatitle h1 {
+.christmas h1, .program h1, .mambatitle h1, .azcf h1 {
 	font-family: 'chunkfive_exregular';
 	font-size: 6vw;
 	line-height: 2vw;
@@ -400,6 +400,3 @@ nav li a {
 	font-size: 1.5em;
 	margin-top: -5vh;
 }
-
-
-
