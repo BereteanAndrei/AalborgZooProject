@@ -48,6 +48,14 @@ img {
 	grid-area: girafe;
 }
 
+.azcf {
+	grid-area: azcf;
+}
+
+.elephant {
+	grid-area: elephant;
+}
+
 .mambatitle {
 	grid-area: mambatitle;
 }
@@ -68,9 +76,13 @@ img {
 	grid-area: woman;
 }
 
+.stats {
+	gird-area: stats;
+}
+
 .container {
 	display: grid;
-	grid-gap: 10vw;
+	grid-gap: 5vw;
 	grid-template-areas: 
 		'entrance'
 		'zebra'
@@ -78,11 +90,14 @@ img {
 		'christmas'
 		'program'
 		'girafe'
+		'azcf'
+		'elephant'
 		'mambatitle'
 		'blackmamba'
 		'video'
 		'location'
-		'woman';
+		'woman'
+		'stats';
 }
 
 .box {
@@ -232,6 +247,10 @@ nav li a {
 	pointer-events: none;
 }
 
+.zebra {
+	height: 40vh;
+}
+
 .entrance img {
 	width: 60vw;
     position: absolute;
@@ -267,9 +286,14 @@ nav li a {
 	background: #4b8d51;
 }
 
-.christmas, .program {
+.christmas {
 	padding: 5vw;
 	height: 45vh;
+}
+
+.program {
+	padding: 5vw;
+	height: 50vh;
 }
 
 .program, .time, .event {
@@ -301,6 +325,15 @@ nav li a {
 	float: right;
 }
 
+/* AZCF SECTION */
+
+.azcf {
+	padding: 5vw;
+	background: red;
+	height: 50vh;
+}
+
+
 /* BlACK MAMBA SECTION */
 
 .mambatitle, .blackmamba, .location {
@@ -309,7 +342,7 @@ nav li a {
 
 .mambatitle {
 	height: auto;
-	margin-bottom: -100px;
+	margin-bottom: -9vh;
 }
 
 .blackmamba {
@@ -319,5 +352,52 @@ nav li a {
 .location {
 	height: 30vh;
 }
+
+.woman {
+	height: 60vh;
+}
+
+ /* STATS SECTION */
+
+.stats, .circleend {
+	padding: 5vw;
+}
+
+.statstitle h1 {
+	text-align: center;
+}
+
+.circle {
+	height: 40vh;
+}
+
+.circledetails {
+	display: inline-block;
+	float: left;
+	padding: 3vw;
+	text-align: center;
+	margin-left: 0.5vw;
+
+}
+
+.circledetails h3 {
+	padding: 5vw;
+ 	background-color: #e18e04;	
+	font-size: 3em;
+	border-radius: 50%;
+    width: 16vh;
+    height: 16vh;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circleend {
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: -5vh;
+}
+
 
 
