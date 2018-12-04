@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'chunkfive_exregular';
+    src: url('font/chunkfive_ex-webfont.woff2') format('woff2'),
+         url('font/chunkfive_ex-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 62%;
+	font-family: 'chunkfive_exregular';
+	line-height: 1.5;
+}
+
+p {
+	font-family: raleway;
+	font-size: 4vw;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* GRID TEMPLATE */
+
+.entrance {
+	grid-area: entrance;
+}
+	
+.zebra {
+	grid-area: zebra;
+} 
+
+.container {
+	display: grid;
+	grid-gap: 10vw;
+	grid-template-areas: 
+		'entrance'
+		'zebra'
+		'intro'
+		'program'
+		'girafe';
+}
+
+.box {
+	height: 30vh;
+}
+
+/*TOP HEADER*/
+
+.topmenu {
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;	
+	background: #fff;
+	z-index: 10;
+}
+
+logo img {
+	width: 30vw;
+	margin-left: 5vw;
+	margin-top: 5vw;
+}
+
+#menu-btn img, #menu-btn-close img {
+	width: 40px;
+}
+
+#menu-btn {
+	top: 0;
+	right: 0;
+	position: fixed;
+}
+
+.menu-id {
+    position: fixed;
+    right: 15vw;
+    top: 0;
+	width: 90px;
+    height: 90px;
+    color: #fff;
+    display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-id p {
+	font-family: 'chunkfive_exregular';
+	color: #000;
+	font-size: 3vw;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    width: 100vw;
+    height: 100vh;
+    background-color: #e74c3c;
+    transition: all .3s ease-out;
+    opacity: .5;
+    padding-top: 15vw;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    list-style-type: none;
+    border-bottom: 2px solid #f39c12;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5vw;
+}
+
+.nav-active nav {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.nav-active #menu-btn {
+    opacity: 0;
+}
+
+#menu-btn {
+    transition: opacity .3s ease-out;
+}
+
+#menu-btn,
+#menu-btn-close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 90px;
+    height: 90px;
+    color: #fff;
+    display: inline-block;
+}
+
+#menu-btn span {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#menu-btn-close img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* CHRISTMAS SECTION */
+
+.entrance {
+	padding-top: 30vh;
+}
+
+.zebra, .girafe img {
+	pointer-events: none;
+}
+
+.entrance img {
+	width: 60vw;
+    position: absolute;
+    left: 50vw;
+    top: 43vh;
+    transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.entrance h1 {
+	font-family: 'chunkfive_exregular';
+	text-align: center;
+    position: absolute;
+	font-size: 10vw;
+	width: 85%;
+    left: 50vw;
+    top: 20vh;
+    transform: translate(-50%, -50%);
+}
+
+.intro p {
+	font-size: 5vw;
+	color: #fff;
+	font-family: 'chunkfive_exregular';
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 5vw;
+	margin-top: 15vh;
+	background: #4b8d51;
+}
+
+.christmas, .program {
+	padding: 5vw;
+	height: 37vh;
+}
+
+.christmas h1, .program h1 {
+	font-family: 'chunkfive_exregular';
+	font-size: 6vw;
+	line-height: 2vw;
+}
+
+.christmas h2 {
+	font-family: 'chunkfive_exregular';
+	font-size: 4vw;
+	line-height: 1vw;
+}
+
+.program, .time, .event {
+	display: inline-block;
+	float: left;
+}
+
+.program {
+	height: 100vw;
+}
+
+.program-text {
+	background: #f3f3f3;
+	height: 105vw;
+	padding: 8px;
+}
+
+.time {
+	margin-right: 5vw;
+}
+
+.event {
+	width: 55vw;
+}
+
+
