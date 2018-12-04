@@ -242,11 +242,12 @@ nav li a {
 .program-text {
 	background: #f3f3f3;
 	overflow: auto;
-	padding: 30px;
+	padding: 10px;
 }
 
 .time {
 	margin-right: 5vw;
+	
 }
 
 .event {
