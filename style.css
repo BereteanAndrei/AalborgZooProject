@@ -364,6 +364,8 @@ nav li a {
 }
 
 .statstitle h1 {
+	font-family: 'chunkfive_exregular';
+	font-size: 6vw;
 	text-align: center;
 }
 
