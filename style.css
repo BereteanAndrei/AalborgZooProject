@@ -48,8 +48,24 @@ img {
 	grid-area: girafe;
 }
 
+.mambatitle {
+	grid-area: mambatitle;
+}
+
+.blackmamba {
+	grid-area: blackmamba;
+}
+
 .video {
 	grid-area: video;
+}
+
+.location {
+	grid-area: location;
+}
+
+.woman {
+	grid-area: woman;
 }
 
 .container {
@@ -62,13 +78,29 @@ img {
 		'christmas'
 		'program'
 		'girafe'
-		'video';
+		'mambatitle'
+		'blackmamba'
+		'video'
+		'location'
+		'woman';
 }
 
 .box {
 	height: 35vh;
 	position: relative;
 	display: block;
+}
+
+.christmas h1, .program h1, .mambatitle h1 {
+	font-family: 'chunkfive_exregular';
+	font-size: 6vw;
+	line-height: 2vw;
+}
+
+h2 {
+	font-family: 'chunkfive_exregular';
+	font-size: 4vw;
+	line-height: 1vw;
 }
 
 /*TOP HEADER*/
@@ -124,7 +156,7 @@ nav {
     transform: translateX(-100%);
     width: 100vw;
     height: 100vh;
-    background-color: #e74c3c;
+    background-color: #e18e04;
     transition: all .3s ease-out;
     opacity: .5;
     padding-top: 15vw;
@@ -138,7 +170,7 @@ nav ul {
 nav li {
     display: block;
     list-style-type: none;
-    border-bottom: 2px solid #f39c12;
+    border-bottom: 2px solid #ffcd7b;
 }
 
 nav li a {
@@ -240,18 +272,6 @@ nav li a {
 	height: 45vh;
 }
 
-.christmas h1, .program h1 {
-	font-family: 'chunkfive_exregular';
-	font-size: 6vw;
-	line-height: 2vw;
-}
-
-.christmas h2 {
-	font-family: 'chunkfive_exregular';
-	font-size: 4vw;
-	line-height: 1vw;
-}
-
 .program, .time, .event {
 	display: inline-block;
 	float: left;
@@ -260,7 +280,9 @@ nav li a {
 .program-text {
 	background: #f3f3f3;
 	overflow: auto;
-	padding: 20px;
+	padding: 5vw;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 .time {
@@ -281,8 +303,21 @@ nav li a {
 
 /* BlACK MAMBA SECTION */
 
-.video {
-	
+.mambatitle, .blackmamba, .location {
+	padding: 5vw;
+}
+
+.mambatitle {
+	height: auto;
+	margin-bottom: -100px;
+}
+
+.blackmamba {
+	height: 50vh;
+}
+
+.location {
+	height: 30vh;
 }
 
 
