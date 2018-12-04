@@ -50,7 +50,7 @@ img {
 }
 
 .box {
-	height: 30vh;
+	height: 35vh;
 }
 
 /*TOP HEADER*/
@@ -202,6 +202,10 @@ nav li a {
     transform: translate(-50%, -50%);
 }
 
+.intro {
+	height: 20vh;
+}
+
 .intro p {
 	font-size: 5vw;
 	color: #fff;
@@ -215,7 +219,7 @@ nav li a {
 
 .christmas, .program {
 	padding: 5vw;
-	height: 37vh;
+	height: 45vh;
 }
 
 .christmas h1, .program h1 {
@@ -235,14 +239,10 @@ nav li a {
 	float: left;
 }
 
-.program {
-	height: 100vw;
-}
-
 .program-text {
 	background: #f3f3f3;
-	height: 105vw;
-	padding: 8px;
+	overflow: auto;
+	padding: 30px;
 }
 
 .time {
