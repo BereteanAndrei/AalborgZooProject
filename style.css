@@ -314,7 +314,7 @@ nav li a {
 	overflow: auto;
 	padding: 5vw;
 	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 8px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 .program-text h1 {
@@ -375,7 +375,7 @@ nav li a {
 }
 
 .stats {
-	height: 90vh;
+	height: 85vh;
 }
 
 .statstitle h1 {
@@ -420,10 +420,41 @@ nav li a {
 
 .projects {
 	padding: 5vw;
-	height: 200vh;
-	background: red;
+	height: 240vh;
+	text-align: center;
 }
 
-.projects img {
+.projects h1, .projects p {
+	text-align: left;
+}
+
+.project h2 {
+	font-size: 2em;
+}
+
+.project p {
+	text-align: center;
+}
+
+.project img {
 	width: 70vw;
+	padding-top: 3vw;
+}
+
+.project {
+	background: #f3f3f3;
+	padding: 5vw;
+	margin-top: 5vw;
+}
+
+.project button {
+	padding: 4vw;
+	width: 25vh;
+	margin: 1vh;
+	background: #4b8d51;
+	border: none;
+	border-radius: 50vh;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 3px 10px 0 rgba(0,0,0,0.20);
+	transition: 0.4s; 
+	font-family: 'chunkfive_exregular';
 }
