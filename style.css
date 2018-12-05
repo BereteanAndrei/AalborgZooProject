@@ -87,6 +87,13 @@ img {
 	grid-area: projects;
 }
 
+.donate {
+	grid-area: donate;
+}
+.legal {
+	grid-area: legal;
+}
+
 .container {
 	display: grid;
 	grid-gap: 5vw;
@@ -105,7 +112,9 @@ img {
 		'location'
 		'woman'
 		'stats'
-		'projects';
+		'projects'
+		'donate'
+		'legal';
 }
 
 .box {
@@ -426,4 +435,42 @@ nav li a {
 
 .projects img {
 	width: 70vw;
+}
+
+/* DONATION */
+
+.monkey {
+	height: 40vh;
+}
+
+.donate {
+	padding: 5vw;
+	height: 75vh;
+}
+
+.donate button {
+	background-color: white; 
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	border: 0.5vh solid ;
+    border-color: #4B8D51;
+	width: 100%;
+	line-height: 0.5;
+}
+
+/*.button1:hover {
+  background-color: #4B8d51;
+  color: white;
+}
+-Only for the desktop version */
+
+/* LEGAL */
+.legal {
+	background: #f3f3f3;
+	padding: 5vw;
 }
