@@ -420,7 +420,7 @@ nav li a {
 
 .projects {
 	padding: 5vw;
-	height: 240vh;
+	height: 260vh;
 	text-align: center;
 }
 
@@ -457,4 +457,12 @@ nav li a {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 3px 10px 0 rgba(0,0,0,0.20);
 	transition: 0.4s; 
 	font-family: 'chunkfive_exregular';
+}
+
+/* FOOTER */
+
+footer {
+	background: #463139;
+	height: 30vh;
+	padding: 5vw;
 }
