@@ -458,11 +458,3 @@ nav li a {
 	transition: 0.4s; 
 	font-family: 'chunkfive_exregular';
 }
-
-/* FOOTER */
-
-footer {
-	background: #463139;
-	height: 30vh;
-	padding: 5vw;
-}
