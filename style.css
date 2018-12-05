@@ -80,7 +80,11 @@ img {
 }
 
 .stats {
-	gird-area: stats;
+	grid-area: stats;
+}
+
+.projects {
+	grid-area: projects;
 }
 
 .container {
@@ -391,7 +395,8 @@ nav li a {
 .circledetails h3 {
 	padding: 5vw;
  	background-color: #e18e04;	
-	font-size: 2rem;
+	font-size: 2em;
+	font-size: 2em;
 	border-radius: 50%;
     width: 16vh;
     height: 16vh;
@@ -403,6 +408,6 @@ nav li a {
 .circleend {
 	display: inline-block;
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1.5em;
 	margin-top: -5vh;
 }
