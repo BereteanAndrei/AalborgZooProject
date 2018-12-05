@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+  font-size: 62.5%; 
+}
+
 @font-face {
     font-family: 'chunkfive_exregular';
     src: url('font/chunkfive_ex-webfont.woff2') format('woff2'),
@@ -308,6 +312,10 @@ nav li a {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
+.program-text h1 {
+	text-align: center;
+}
+
 .time {
 	margin-right: 5vw;
 }
@@ -328,8 +336,7 @@ nav li a {
 
 .azcf {
 	padding: 5vw;
-	background: red;
-	height: 50vh;
+	height: 40vh;
 }
 
 
@@ -384,7 +391,7 @@ nav li a {
 .circledetails h3 {
 	padding: 5vw;
  	background-color: #e18e04;	
-	font-size: 2em;
+	font-size: 2rem;
 	border-radius: 50%;
     width: 16vh;
     height: 16vh;
@@ -396,6 +403,6 @@ nav li a {
 .circleend {
 	display: inline-block;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1rem;
 	margin-top: -5vh;
 }
