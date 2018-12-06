@@ -131,12 +131,12 @@ footer {
 }
 
 .box {
-	height: 35vh;
+	height: 70vw;
 	position: relative;
 	display: block;
 }
 
-.christmas h1, .program h1, .mambatitle h1, .azcf h1, .projects h1 {
+.christmas h1, .program h1, .mambatitle h1, .azcf h1, .projects h1, .donate h1, .newsletter h1 {
 	font-family: 'chunkfive_exregular';
 	font-size: 6vw;
 	line-height: 2vw;
@@ -148,6 +148,10 @@ h2 {
 	line-height: 1vw;
 }
 
+a {
+	color: #e18e04;
+}
+
 /*TOP HEADER*/
 
 .topmenu {
@@ -157,6 +161,7 @@ h2 {
 	position: fixed;	
 	background: #fff;
 	z-index: 10;
+	padding-bottom: 3vw;
 }
 
 logo img {
@@ -166,13 +171,14 @@ logo img {
 }
 
 #menu-btn img, #menu-btn-close img {
-	width: 40px;
+	width: 40vw;
 }
 
 #menu-btn {
 	top: 0;
 	right: 0;
 	position: fixed;
+	transition: opacity .3s ease-out;
 }
 
 .menu-id {
@@ -235,17 +241,13 @@ nav li a {
     opacity: 0;
 }
 
-#menu-btn {
-    transition: opacity .3s ease-out;
-}
-
 #menu-btn,
 #menu-btn-close {
     position: fixed;
     right: 0;
     top: 0;
-    width: 90px;
-    height: 90px;
+    width: 20vw;
+    height: 20vw;
     color: #fff;
     display: inline-block;
 }
@@ -271,7 +273,8 @@ nav li a {
 /* CHRISTMAS SECTION */
 
 .entrance {
-	padding-top: 30vh;
+	padding-top: 30vw;
+	height: 100vw;
 }
 
 .zebra, .girafe img {
@@ -279,14 +282,14 @@ nav li a {
 }
 
 .zebra {
-	height: 40vh;
+	height: 70vw;
 }
 
 .entrance img {
 	width: 60vw;
     position: absolute;
-    left: 50vw;
-    top: 46vh;
+    left: 50%;
+    top: 65%;
     transform: translate(-50%, -50%);
 	z-index: -1;
 }
@@ -297,13 +300,13 @@ nav li a {
     position: absolute;
 	font-size: 10vw;
 	width: 85%;
-    left: 50vw;
-    top: 20vh;
+    left: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
 }
 
 .intro {
-	height: 20vh;
+	height: 40vw;
 }
 
 .intro p {
@@ -313,13 +316,13 @@ nav li a {
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 5vw;
-	margin-top: 15vh;
+	margin-top: 25vw;
 	background: #4b8d51;
 }
 
 .christmas {
 	padding: 5vw;
-	height: 45vh;
+	height: 80vw;
 }
 
 .christmas img {
@@ -328,7 +331,7 @@ nav li a {
 
 .program {
 	padding: 5vw;
-	height: 50vh;
+	height: 85vw;
 }
 
 .program, .time, .event {
@@ -357,7 +360,7 @@ nav li a {
 }
 
 .girafe {
-	height: 70vh;
+	height: 120vw;
 }
 
 .girafe img {
@@ -368,7 +371,7 @@ nav li a {
 
 .azcf {
 	padding: 5vw;
-	height: 40vh;
+	height: 70vw;
 }
 
 /* BlACK MAMBA SECTION */
@@ -379,20 +382,20 @@ nav li a {
 
 .mambatitle {
 	height: auto;
-	margin-bottom: -9vh;
+	margin-bottom: -15vw;
 }
 
 .blackmamba {
-	height: 45vh;
+	height: 80vw;
 }
 
 .location {
-	height: 30vh;
+	height: 60vw;
 	padding-top: 0;
 }
 
 .woman {
-	height: 60vh;
+	height: 105vw;
 }
 
 /* STATS SECTION */
@@ -402,7 +405,7 @@ nav li a {
 }
 
 .stats {
-	height: 85vh;
+	height: 150vw;
 }
 
 .statstitle h1 {
@@ -429,8 +432,8 @@ nav li a {
 	font-size: 3em;
 	font-weight: 50;
 	border-radius: 50%;
-    width: 16vh;
-    height: 16vh;
+    width: 25vw;
+    height: 25vw;
 	display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -441,15 +444,15 @@ nav li a {
 .circleend {
 	display: inline-block;
 	text-align: center;
-	font-size: 1.5em;
-	margin-top: -5vh;
+	font-size: 4vw;
+	margin-top: -8vw;
 }
 
 /* OUR OTHER PROJECTS SECTION */
 
 .projects {
 	padding: 5vw;
-	height: 255vh;
+	height: 445vw;
 	text-align: center;
 }
 
@@ -458,7 +461,7 @@ nav li a {
 }
 
 .project h2 {
-	font-size: 2em;
+	font-size: 5vw;
 }
 
 .project p {
@@ -498,12 +501,12 @@ nav li a {
 /* DONATION */
 
 .monkey {
-	height: 40vh;
+	height: 65vw;
 }
 
 .donate {
 	padding: 5vw;
-	height: 90vh;
+	height: 145vw;
 }
 
 .donate button {
@@ -515,7 +518,7 @@ nav li a {
 	font-size: 16px;
 	margin: 4px 2px;
 	transition-duration: 0.4s;
-	border: 0.5vh solid;
+	border: 0.5vw solid;
     border-color: #4B8D51;
 	width: 100%;
 	line-height: 0.5;
@@ -539,26 +542,31 @@ nav li a {
 }
 
 .legal {
-	height: 23vh;
+	height: 32vw;
 }
 
 /* NEWSLETTER */
 
 .newsletter {
-	height: 100vh;
+	height: 169vw;
+}
+
+.newsletter h1 {
+	line-height: 8vw;
 }
 
 .text {
 	padding: 5vw;
 	text-align: center;
-	height: 20vh;
+	height: 40vw;
 }
 
 .formHolder {
     background-color: #f2f2f2;
 	padding: 5vw;
-	font-family: 'chunkfive_exregular';
-	padding-bottom: 9vh;
+	padding-bottom: 9vw;
+	font-size: 3vw;
+	height: 120vw;
 }
 
 input[type=text], select, input[type=number]{
@@ -570,7 +578,7 @@ input[type=text], select, input[type=number]{
     box-sizing: border-box;
 	box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2);
 	font-family: 'chunkfive_exregular';
-	font-size: 1.5em;
+	font-size: 3vw;
 }
 
 input[type=submit] {
@@ -586,6 +594,7 @@ input[type=submit] {
 	text-transform: uppercase;
 	font-family: 'chunkfive_exregular';
 	transition: 0.4s;
+	font-size: 3vw;
 }
 
 input[type=submit]:hover {
@@ -657,7 +666,7 @@ section {
 
 footer {
 	background: #463139;
-	height: 53vh;
+	height: 100vw;
 	padding: 5vw;
 	margin-top: 10vw;
 	color: #fff;
@@ -695,3 +704,17 @@ footer a:hover {
 	padding-top: 5vw;
 }
 
+/* BREAK POINTS */
+
+/* MOBILE PHONE */
+
+@media screen and (min-width: 481px) {
+
+
+/* TABLET (PORTRAIT) */
+@media screen and (min-width: 768px) {
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) {
+}
