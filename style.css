@@ -221,10 +221,11 @@ nav li a {
     text-decoration: none;
     color: #fff;
     padding: 5vw;
+	font-size: 2em;
 }
 
 .nav-active nav {
-    transform: translateX(0);
+    transform: translateX(0%);
     opacity: 1;
 }
 
@@ -392,7 +393,7 @@ nav li a {
 	height: 60vh;
 }
 
- /* STATS SECTION */
+/* STATS SECTION */
 
 .stats, .circleend {
 	padding: 5vw;
@@ -418,13 +419,13 @@ nav li a {
 	padding: 3vw;
 	text-align: center;
 	margin-left: 0.5vw;
-
 }
 
 .circledetails h3 {
 	padding: 5vw;
  	background-color: #e18e04;	
 	font-size: 3em;
+	font-weight: 50;
 	border-radius: 50%;
     width: 16vh;
     height: 16vh;
@@ -484,13 +485,13 @@ nav li a {
 	transition: 0.4s; 
 	font-family: 'chunkfive_exregular';
 	color: #fff;
-	font-size: 1.7em;
+	font-size: 1.3em;
+	text-transform: uppercase;
 }
 
 .project button:hover {
 	background: #386d3c;
 }
-
 
 /* DONATION */
 
@@ -526,7 +527,6 @@ nav li a {
 .bank a {
 	text-decoration: none;
 }
-
 
 /* LEGAL */
 
@@ -691,6 +691,4 @@ footer a:hover {
 	width: 30vw;
 	padding-top: 5vw;
 }
-
-
 
