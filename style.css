@@ -7,8 +7,10 @@ html {
 
 @font-face {
     font-family: 'chunkfive_exregular';
-    src: url('font/chunkfive_ex-webfont.woff2') format('woff2'),
-         url('font/chunkfive_ex-webfont.woff') format('woff');
+    src:url('font/chunkfive_ex-webfont.woff2') format('woff2'),
+        url('font/chunkfive_ex-webfont.woff') format('woff'),
+		url('font/Chunkfive Ex.ttf') format('truetype'), 
+		url('font/Chunkfive.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
