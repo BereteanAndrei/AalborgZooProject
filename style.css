@@ -364,7 +364,6 @@ nav li a {
 	height: 40vh;
 }
 
-
 /* BlACK MAMBA SECTION */
 
 .mambatitle, .blackmamba, .location {
@@ -377,11 +376,12 @@ nav li a {
 }
 
 .blackmamba {
-	height: 50vh;
+	height: 45vh;
 }
 
 .location {
 	height: 30vh;
+	padding-top: 0;
 }
 
 .woman {
@@ -516,6 +516,10 @@ nav li a {
 .donate button:hover {
   background-color: #4B8d51;
   color: white;
+}
+
+.bank a {
+	text-decoration: none;
 }
 
 
