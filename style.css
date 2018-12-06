@@ -495,7 +495,7 @@ nav li a {
 
 .donate {
 	padding: 5vw;
-	height: 75vh;
+	height: 90vh;
 }
 
 .donate button {
@@ -518,11 +518,17 @@ nav li a {
   color: white;
 }
 
+
 /* LEGAL */
 
-.legal {
+.legal p {
 	background: #f3f3f3;
 	padding: 5vw;
+	font-size: 1.3em;
+}
+
+.legal {
+	height: 23vh;
 }
 
 /* NEWSLETTER */
