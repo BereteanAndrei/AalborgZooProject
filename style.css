@@ -90,8 +90,17 @@ img {
 .donate {
 	grid-area: donate;
 }
+
 .legal {
 	grid-area: legal;
+}
+
+.newsletter {
+	grid-area: newsletter;
+}
+
+footer {
+	grid-area: footer;
 }
 
 .container {
@@ -114,7 +123,9 @@ img {
 		'stats'
 		'projects'
 		'donate'
-		'legal';
+		'legal'
+		'newsletter'
+		'footer';
 }
 
 .box {
@@ -409,13 +420,14 @@ nav li a {
 .circledetails h3 {
 	padding: 5vw;
  	background-color: #e18e04;	
-	font-size: 2em;
+	font-size: 3em;
 	border-radius: 50%;
     width: 16vh;
     height: 16vh;
 	display: table-cell;
     text-align: center;
     vertical-align: middle;
+	color: #fff;
 }
 
 .circleend {
@@ -429,7 +441,7 @@ nav li a {
 
 .projects {
 	padding: 5vw;
-	height: 240vh;
+	height: 255vh;
 	text-align: center;
 }
 
@@ -466,7 +478,14 @@ nav li a {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 3px 10px 0 rgba(0,0,0,0.20);
 	transition: 0.4s; 
 	font-family: 'chunkfive_exregular';
+	color: #fff;
+	font-size: 1.7em;
 }
+
+.project button:hover {
+	background: #386d3c;
+}
+
 
 /* DONATION */
 
@@ -509,6 +528,10 @@ nav li a {
 
 /* NEWSLETTER */
 
+.newsletter {
+	height: 90vh;
+}
+
 .text {
 	padding: 5vw;
 	text-align: center;
@@ -516,9 +539,8 @@ nav li a {
 }
 
 .formHolder {
-	width: 100vw;
-    border-radius: 5px;
     background-color: #f2f2f2;
+	padding: 5vw;
 	font-family: 'chunkfive_exregular';
 }
 
@@ -545,7 +567,6 @@ input[type=submit] {
 	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
 	text-transform: uppercase;
 	text-shadow: -1px -1px rgba(0,0,0,0.5), 1px 1px rgba(255,255,255,0.5);
-
 }
 
 input[type=submit]:hover {
@@ -559,22 +580,13 @@ input[type=submit]:active {
 	font-family: 'chunkfive_exregular';
 }
 
-
-
-
-	
-}
-
-
 .formcontainer {
   margin-bottom: 10px;
-	
 }
+
 .formcontainer label {
   position: relative;
-
 }
-
 
 .formcontainer span::before, .formcontainer span::after {
   content: '';
@@ -582,14 +594,12 @@ input[type=submit]:active {
   top: 0;
   bottom: 0;
   margin: auto;
-	
 }
-
 
 .formontainer span.radio:hover {
   cursor: pointer;
-	
 }
+
 .formcontainer span.radio::before {
   left: -52px;
   width: 45px;
@@ -597,34 +607,74 @@ input[type=submit]:active {
   background-color: #fff;
   border-radius: 50px;
   box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2);
-
 }
+
 .formcontainer span.radio::after {
-  left: -49px;
-  width: 17px;
-  height: 17px;
-  border-radius: 10px;
-  background-color: #d0d0d0;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
-  transition: left .25s, background-color .25s;
-	
+	left: -49px;
+	width: 17px;
+	height: 17px;
+	border-radius: 10px;
+	background-color: #d0d0d0;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+	transition: left .25s, background-color .25s;
 }
-input[type="radio"]:checked + label span.radio::after {
-  left: -27px;
-  background-color: #505050;
 
+input[type="radio"]:checked + label span.radio::after {
+	left: -27px;
+	background-color: #505050;
 }
 
 section {
 	width: 90vw;
-	
 }
 
 .formHolder label {
-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 1.5em;
 }
 
+/* FOOTER */
+
+footer {
+	background: #463139;
+	height: 53vh;
+	padding: 5vw;
+	margin-top: 10vw;
+	color: #fff;
+}
+
+footer a {
+	color: #919191;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #736454;
+}
+
+.social {
+	text-align: center;
+	padding: 3vw;
+}
+
+.social img {
+	width: 15vw;
+	padding: 1vw;
+}
+
+.social img:hover {
+	opacity: 0.5;
+}
+
+.footerlogo {
+	text-align: center;
+}
+
+.footerlogo img {
+	width: 30vw;
+	padding-top: 5vw;
+}
 
 
 
