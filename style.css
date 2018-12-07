@@ -706,10 +706,6 @@ footer a:hover {
 
 /* BREAK POINTS */
 
-/* MOBILE PHONE */
-
-@media screen and (min-width: 481px) {
-
 
 /* TABLET (PORTRAIT) */
 @media screen and (min-width: 768px) {
@@ -717,4 +713,77 @@ footer a:hover {
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
+.container {
+	display: grid;
+	grid-gap: 1vw;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-areas: 
+		'zebra zebra zebra entrance entrance entrance' 
+		'intro intro intro intro intro intro'
+		'christmas christmas christmas christmas christmas christmas'
+		'program program program program program program'
+		'girafe girafe girafe gireafe girafe girafe'
+		'azcf azcf azcf azcf azcf azcf'
+		'elephant elephant elephant elephant elephant elephan'
+		'mambatitle mambatitle mambatitle mambatitle miambatitle mambatitle'
+		'blackmamba blackmamba blackmamba blackmamba blackmamba blackmamba'
+		'video video video video video video'
+		'location location location location location location'
+		'woman woman woman woman woman woman'
+		'stats stats stats stats stats stats'
+		'projects projects projects projects projects projects'
+		'donate donate donate donate donate donate'
+		'legal legal legal legal legal legal'
+		'newsletter newsletter newsletter newsletter newsletter newsletter'
+		'footer footer footer footer footer footer';
+}
+	
+	
+.topmenu {
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;	
+	background: #ffff;
+	z-index: 10;
+	padding-bottom: 3vw;
+	height: 100px;
+}
+logo img {
+	width: 10vw;
+	margin-left: 5vw;
+	margin-top: 2.5vw;
+}
+
+#menu-btn img, #menu-btn-close img {
+	width: 5vw;
+	
+}
+
+#menu-btn {
+	margin-top: -5vw;
+	right: -4vw;
+	position: fixed;
+	transition: opacity .3s ease-out;
+}
+
+.menu-id {
+    position: fixed;
+    right: 9vw;
+    top: 2vw;
+	width: 10vw;
+    height: 90px;
+    color: #fff;
+    display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-id p {
+	font-family: 'chunkfive_exregular';
+	color: #000;
+	font-size: 2vw;
+	
+}
 }
