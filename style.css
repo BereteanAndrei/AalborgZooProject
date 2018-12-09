@@ -309,7 +309,7 @@ nav li a {
 }
 
 .intro {
-	height: 40vw;
+	height: 60vw;
 }
 
 .intro p {
@@ -553,7 +553,7 @@ nav li a {
 /* NEWSLETTER */
 
 .newsletter {
-	height: 180vw;
+	height: 150vw;
 }
 
 .newsletter h1 {
@@ -571,7 +571,7 @@ nav li a {
 	padding: 5vw;
 	padding-bottom: 0vw;
 	font-size: 3vw;
-	height: 140vw;
+	height: 110vw;
 	color: #303030;
 }
 
