@@ -28,55 +28,53 @@ h2 {
 	color: #303030;
 }
 
+/*TOP HEADER*/
+
 .topmenu {
 	width: 100%;
 	top: 0;
 	left: 0;
 	position: fixed;	
-	background: #F3F3F3;
-	z-index: 20;
+	background: #f3f3f3;
+	z-index: 10;
 	padding-bottom: 3vw;
-	height: 70px;
+	height: 2vw;
 }
 
 logo img {
-	width: 10vw;
-	margin-left: 5vw;
-	margin-top: 2.5vw;
+	width: 6vw;
+	margin-left: 1vw;
+	margin-top: 1vw;
 }
 
 #menu-btn img, #menu-btn-close img {
-	width: 4vw;
-
+	width: 3vw;
 }
 
 #menu-btn {
-	margin-top: -5.5vw;
-	right: -3vw;
+	top: -7vw;
+	right: -6vw;;
 	position: fixed;
 	transition: opacity .3s ease-out;
 }
 
-
 .menu-id {
-  
-	position: fixed;
-    right: 9vw;
-    top: 1vw;
-	width: 10vw;
-    color:rebeccapurple;
+    position: fixed;
+    right: 5vw;
+    top: -0.5vw;
+	width: 5vw;
+    height: 6vw;
+    color: #fff;
     display: inline-block;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 .menu-id p {
 	font-family: 'chunkfive_exregular';
 	color: #000;
-	font-size: 2vw;
-	margin-right: 5vw;
+	font-size: 1vw;
 }
 
 nav {
@@ -86,7 +84,7 @@ nav {
     transform: translateX(-100%);
     width: 100vw;
     height: 100vh;
-    background-color: #e18e04;
+    background-color: #DADADA;
     transition: all .3s ease-out;
     opacity: .5;
     padding-top: 15vw;
@@ -100,15 +98,15 @@ nav ul {
 nav li {
     display: block;
     list-style-type: none;
-    border-bottom: 2px solid #ffcd7b;
+    border-bottom: 2px solid #F3F3F3;
 }
 
 nav li a {
     display: block;
     text-decoration: none;
     color: #fff;
-    padding: 5vw;
-	font-size: 2em;
+    padding: 2vw;
+	font-size: 1em;
 }
 
 .nav-active nav {
@@ -125,8 +123,8 @@ nav li a {
     position: fixed;
     right: 0;
     top: 0;
-    width: 20vw;
-    height: 20vw;
+    width: 5vw;
+    height: 5vw;
     color: #fff;
     display: inline-block;
 }
@@ -249,7 +247,7 @@ nav li a {
 	display: inline-block;
 	float: right;
 	width: 20vw;
-	z-index: 10;
+	z-index: 9;
 	margin-top: -15vw;
 }
 

@@ -14,5 +14,6 @@ window.onload = function(){
 	    event.preventDefault(); // stops the element from doing it's usual stuff
 	    document.getElementById("body-id").classList.remove("nav-active");
 	});
+	
 
 }// JavaScript Document
