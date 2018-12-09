@@ -140,12 +140,14 @@ footer {
 	font-family: 'chunkfive_exregular';
 	font-size: 6vw;
 	line-height: 2vw;
+	color: #303030;
 }
 
 h2 {
 	font-family: 'chunkfive_exregular';
 	font-size: 4vw;
 	line-height: 1vw;
+	color: #303030;
 }
 
 a {
@@ -303,6 +305,7 @@ nav li a {
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);
+	color: #303030;
 }
 
 .intro {
@@ -412,6 +415,7 @@ nav li a {
 	font-family: 'chunkfive_exregular';
 	font-size: 6vw;
 	text-align: center;
+	color: #303030;
 }
 
 .circle {
@@ -446,6 +450,7 @@ nav li a {
 	text-align: center;
 	font-size: 4vw;
 	margin-top: -8vw;
+	color: #303030;
 }
 
 /* OUR OTHER PROJECTS SECTION */
@@ -542,13 +547,13 @@ nav li a {
 }
 
 .legal {
-	height: 32vw;
+	height: 40vw;
 }
 
 /* NEWSLETTER */
 
 .newsletter {
-	height: 169vw;
+	height: 180vw;
 }
 
 .newsletter h1 {
@@ -564,9 +569,10 @@ nav li a {
 .formHolder {
     background-color: #f2f2f2;
 	padding: 5vw;
-	padding-bottom: 9vw;
+	padding-bottom: 0vw;
 	font-size: 3vw;
-	height: 120vw;
+	height: 140vw;
+	color: #303030;
 }
 
 input[type=text], select, input[type=number]{
