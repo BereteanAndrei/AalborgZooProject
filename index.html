@@ -1,12 +1,13 @@
 <!doctype html>
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
 <title>Aalborg Zoo Christmas Eve</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1">
+<link href="styledesktop.css" media="only screen and (min-width: 1001px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="only screen and (max-width: 1000px)" href="style.css" />
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link href="normalize.css" rel="stylesheet" type="text/css">
+	
 <script src="script.js"></script>
 </head>
 
@@ -93,6 +94,11 @@
 		<div class="box mambatitle">
 			<h1>The Black Mamba Project</h1>
 		</div>
+		<div class="box video">
+		<video autoplay loop muted width="100%" height="100%">
+  		<source src="images/blackmamba.mp4" type="video/mp4">
+		</video>
+		</div>
 		
 		<div class="box blackmamba">
 			<h2>What do we do?</h2>
@@ -100,12 +106,10 @@
 			<p>26 brave women create shelters for elephants and other types of wildlife, each of them patrols the area for around 20km/day and they arrest and scare off poachers, while destroying snares and traps.</p>
 			<p>They want their communities to understand that the benefits are greater through wildlife conservation rather than poaching, addressing the social and moral decay.</p>
 		</div>
-		
-		<div class="box video">
-			<video autoplay loop muted width="100%" height="100%">
-  			<source src="images/blackmamba.mp4" type="video/mp4">
-			</video>
+		<div class="box woman">
+			<img src="images/blackmambawoman.png" alt="black mamba woman">
 		</div>
+		
 		
 		<div class="box location">
 			<h2>Location</h2>
@@ -114,14 +118,8 @@
 			P.O. Box: 1187<br>
 			Hoedspruit 1380<br>
 			South Africa<br></p>
-			<p>We strive to create a strong bond and educate the communities that live on the boundaries of Balule and the Greater Kruger Park to create a sympathetic and patriotic community with pro-environmental mentality.</p>
+			<p id="paragraph">We strive to create a strong bond and educate the communities that live on the boundaries of Balule and the Greater Kruger Park to create a sympathetic and patriotic community with pro-environmental mentality.</p>
 		</div>
-		
-		<div class="box woman">
-			<img src="images/blackmambawoman.png" alt="black mamba woman">
-		</div>
-		
-		
 		<div class="box stats" >
 			<div class="statstitle">
 				<h1>Since 2013 The Black Mamba has achieved...</h1>
@@ -129,7 +127,7 @@
 			<div class="circle">
 				<div class="circledetails">
 					<h3>78%</h3>
-					<p>Poaching reduced</p>
+					<p id="stat">Poaching reduced</p>
 				</div>
 				<div class="circledetails">
 					<h3>1.000+</h3>
@@ -162,8 +160,9 @@
 				<h2>The Payamin project</h2>
 				<img src="images/payamino.png" alt="The Payamin Project">
 				<p>Supports the Indians in Payaminola City with their struggle in training and conservation of the rain forests.</p>
-				<a href="https://aalborgzoo.dk/projekter.aspx"><button>Learn more</button></a>
+				<a href="https://aalborgzoo.dk/projekter.aspx"><button id="payamin" >Learn more</button></a>
 			</div>
+			
 			<div class="project">
 				<h2>Zoos Go Wild</h2>
 				<img src="images/girafe2.png" alt="Zoos Go Wild">
@@ -195,11 +194,6 @@
 			</div>
 			<section class="formHolder">
 			<form>
-				<label for="fname">First name:</label>
-				<input type="text" id="fname" name="firstname" placeholder="Your first name...">
-
-				<label for="lname">Last name:</label>
-				<input type="text" id="lname" name="lastname" placeholder="Your last name...">
 				<label for="email">E-mail address:</label>
 				<input type="text" id="email" name="e-mail" placeholder="Example: JohnDoe@gmail.com">
 				<p>Yes, I would like to receive updates on...</p>
