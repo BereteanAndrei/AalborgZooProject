@@ -24,12 +24,16 @@ p {
 	font-size: 1.1vw;
 }
 
+h2 {
+	color: #303030;
+}
+
 .topmenu {
 	width: 100%;
 	top: 0;
 	left: 0;
 	position: fixed;	
-	background: #fff;
+	background: #F3F3F3;
 	z-index: 20;
 	padding-bottom: 3vw;
 	height: 70px;
@@ -183,6 +187,7 @@ nav li a {
 	padding: 5vw;
 	width: 50vw;	
 	height: 5vw;
+	color: #303030;
 }
 
 .christmas {
@@ -195,10 +200,13 @@ nav li a {
 
 .christmas h1, .program h1 {
 	font-size: 2vw;
+	color: #303030;
 }
 .christmas h2 {
 	font-size: 1.3vw;
+	color: #303030;
 }
+
 .program {
 	
 	display: inline-block;
@@ -209,14 +217,16 @@ nav li a {
 	border-radius: 10px;
 	box-shadow: 0 8px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
+
 .program h1 {
 	margin-bottom: 0vw;
-	
+	color: #303030;
 }
+
 .program-text{
-	
 	width: 100%;
 }
+
 .time{
 	
 	display: inline-block;
@@ -224,6 +234,7 @@ nav li a {
 	width: 25%;
 	height: 100%;
 }
+
 .event {
 	
 	display: inline-block;
@@ -232,19 +243,21 @@ nav li a {
 	height: 100%;
 	margin-left:5%;
 }
+
 .girafe {
 	position: absolute;
 	display: inline-block;
 	float: right;
 	width: 20vw;
 	z-index: 10;
-
 	margin-top: -15vw;
 }
+
 .girafe img {
 	width: 38vw;
 	margin-left: -5vw;
 }
+
 /* AZCF */
 
 .azcf {
@@ -254,17 +267,19 @@ nav li a {
 	height: 28vw;
 	margin-top: 5vw;
 }
+
 .azcf p {
 	width: 40vw;
 }
+
 .azcf h1 {
 	padding-top: 5vw;
 	font-size: 2vw;
+	color: #303030;
 }
 
 .elephant img {
 	display: none;
-	
 }
 
 .elephant { 
@@ -275,9 +290,7 @@ nav li a {
 	height: 35vw;
 	margin-top: -30vw;
 	margin-left: 30vw;
-	float: left;
-	
-	
+	float: left;	
 }
 
 /* BLACK MAMBA */
@@ -289,6 +302,7 @@ nav li a {
 	margin-top: -10vw;
 	padding-left: 5vw;
 	padding-bottom: 2vw;
+	color: #303030;
 }
 
 .video {
@@ -304,7 +318,6 @@ nav li a {
 	width: 50vw;
 	display: inline-block;
 	float: left;
-	
 } 
 
 .blackmamba h2 {
@@ -322,7 +335,6 @@ nav li a {
 	float: left;
 	margin-left: -13vw;
 	margin-top: 13vw;
-	
 }
 
 .location {
@@ -351,7 +363,7 @@ nav li a {
 	margin: 5vw;
 	width: 50vw;
 	margin-left: 24vw;
-
+	color: #303030;
 }
 
 .circle {
@@ -359,8 +371,8 @@ nav li a {
 	padding-left: 5vw;
 	padding-right: 5vw;
 	margin-left: 6vw;
-	
 }
+
 .circledetails h3 {
  	background-color: #e18e04;	
 	font-size: 1.8vw;
@@ -373,7 +385,6 @@ nav li a {
     vertical-align: middle;
 	color: #fff;	
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-	
 }
 
 .circledetails p {
@@ -390,6 +401,7 @@ nav li a {
 .circleend {
 	width: 79vw;
 	text-align: center;
+	color: #303030;
 }
 
 .circleend h4 {
@@ -404,7 +416,7 @@ nav li a {
 
 .projects h1 {
 	font-size: 2vw;
-	
+	color: #303030;
 }
 
 .projects {
@@ -417,20 +429,17 @@ nav li a {
 	text-align: left;
 }
 
-
 .project h2 {
 	font-size: 1.5vw;
 }
 
 .project p {
 	text-align: center;
-	
 }
 
 .project img {
 	width: 15vw;
 	padding-top: 3vw;
-	
 }
 
 .project {
@@ -510,6 +519,7 @@ nav li a {
 
 .bank h1 {
 	font-size: 2vw;
+	color: #303030;
 }
 
 /* LEGAL */
@@ -521,7 +531,6 @@ nav li a {
 	padding: 5vw;
 	margin-top: -8vw;
 	background: white;
-	
 }
 
 .legal p {
@@ -529,12 +538,15 @@ nav li a {
 }
 
 /* NEWSLETTER */
+
 .text {
 	margin-bottom: -5vw;
 }
+
 .text h1 {
 	padding: 2vw 0 0 5vw;
 	font-size: 2vw;
+	color: #303030;
 }
 
 .text p {
@@ -556,6 +568,7 @@ nav li a {
 	width: 32vw;
 	display: inline-block;
 	float: left;
+	color: #303030;
 }
 
 .formHolder email {
@@ -589,7 +602,7 @@ input[type=submit] {
 	text-transform: uppercase;
 	font-family: 'chunkfive_exregular';
 	transition: 0.4s;
-	font-size: 3vw;
+	font-size: 2vw;
 }
 
 input[type=submit]:hover {
@@ -606,8 +619,6 @@ input[type=submit]:active {
 .formcontainer {
   margin-bottom: 10px;
 }
-
-
 
 .formcontainer span::before, .formcontainer span::after {
   content: '';
@@ -645,7 +656,6 @@ input[type="radio"]:checked + label span.radio::after {
 	background-color: #505050;
 }
 
-
 section {
 	width: 90vw;
 }
@@ -655,6 +665,7 @@ section {
 	text-align: center;
 	font-size: 1.5em;
 }
+
 .formHolder input {
 	font-size: 3vw;
 }
@@ -715,4 +726,3 @@ footer a:hover {
 	width: 10vw;
 	padding-top: 0vw;
 }
-
